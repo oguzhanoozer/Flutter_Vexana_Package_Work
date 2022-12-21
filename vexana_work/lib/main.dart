@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'todo/view/todo_view.dart';
+import 'package:vexana_work/rickmorty/rickmorty.dart';
+import 'rickmorty/rickmorty_view.dart';
 
 void main() => runApp(const MyApp());
 
@@ -9,6 +9,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: 'Material App', home: ToDoView());
+    return MaterialApp(title: 'Material App', home: rickmorty());
   }
 }
